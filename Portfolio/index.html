@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- section Navbar -->
+    <nav id="navbar">
+        <div>
+            <h1><span>Mahrukh</span> Noor</h1>
+        </div>
+        <!-- Hamburger menu for mobile -->
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="navLinks">
+            <ul>
+                <li>
+                    <a href="/" class="link">Home
+                        <span>&nbsp;</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="link">About
+                        <span>&nbsp;</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills" class="link">Skills
+                        <span>&nbsp;</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="link">Projects
+                        <span>&nbsp;</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="link">Contact
+                        <span>&nbsp;</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HeroSection -->
+    <section class="heroSection">
+        <div class="left">
+            <div class="image">
+                <img src="images/image.png" alt="">
+            </div>
+        </div>
+        <div class="right">
+            <h1>Hi, I'm Mahrukh Noor</h1>
+            <h2>Front-end Developer</h2>
+            <p>As a front-end developer, I create visually stunning and user-friendly websites that deliver seamless, responsive experiences across all devices. Using HTML, CSS, JavaScript, and modern frameworks like React, I transform designs into interactive, high-performance web pages that engage users and drive conversions.</p>
+            <div class="buttons">
+                <button class="button button1">Download CV</button>
+                <button class="button button2">Hire Me</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-box">
+            <h1>About <span>Me</span></h1>
+            <p>Hi, I'm Mahrukh Noor!
+                I'm a front-end developer passionate about creating clean, interactive websites. Right now, I’m focusing on mastering the fundamentals: HTML, CSS, and JavaScript. I’m also learning Next.js to help build dynamic user interfaces.
+                
+                Web development excites me because it allows me to combine creativity with logic. I’m currently working on personal projects, such as building a responsive portfolio and experimenting with creating simple web applications.
+                
+                My goal is to continue learning and grow my skills so I can contribute to real-world projects and eventually work as a professional front-end developer. I'm excited to keep challenging myself and learning new tools along the way!</p>
+        </div>
+    </section>
+
+    <!-- Skills Section  -->
+    <section class="skills" id="skills">
+        <h1>My <span>Skills</span></h1>
+        <div class="skill-box">
+            <div class="bar">
+                <div class="info">
+                    <span>HTML</span>
+                </div>
+                <div class="progress-line html">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>CSS</span>
+                </div>
+                <div class="progress-line css">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>Typescript</span>
+                </div>
+                <div class="progress-line typescript">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>Next.js</span>
+                </div>
+                <div class="progress-line nextjs">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>Tailwind CSS</span>
+                </div>
+                <div class="progress-line tailwind-css">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="project" id="projects">
+        <h1>My <span>Projects</span></h1>
+        <div class="projects-box">
+            <div class="box">
+                <div class="cart cart1">
+                    <img src="images/imageGallery.PNG" alt="">
+                </div>
+                <div class="cart cart2">
+                    <img src="images/Calculator.jpg" alt="">
+                </div>
+                <div class="cart cart3">
+                    <img src="images/portfolio.png" alt="">
+                </div>
+                <div class="cart cart4">
+                    <img src="images/avionwebsite.PNG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h1>Contact <span>Me</span></h1>
+        <div class="contact-box">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Email Address">
+            <input type="text" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
